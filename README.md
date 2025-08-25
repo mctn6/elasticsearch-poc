@@ -13,7 +13,14 @@ Search `iphon pro max 15` → returns `iPhone Pro Max 15` (with fuzzy matching).
     npm install 
     npm run dev
     ```
-4. Search: curl "http://localhost:3000/api/search?q=iphon+pro+max+15"
+4. You will see
+    ```
+    info: Index products created successfully.
+    info: Indexed 5 products successfully
+    info: ✅ Server running on http://localhost:3000
+    info: 🔍 Try: GET /api/search?q=iphon%20pro%20max%2015
+    ```
+5. Try to search: curl "http://localhost:3000/api/search?q=iphon+pro+max+15"
 
 🌐 API 
     - GET /api/search?q=... – Search products
