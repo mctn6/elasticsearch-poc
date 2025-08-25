@@ -1,10 +1,7 @@
 # Elasticsearch PoC
 
 A simple search demo using Node.js, TypeScript, and Elasticsearch.
-
-🎯 Search `iphon pro max 15` → returns `iPhone Pro Max 15` (with fuzzy matching).
-
-## 🔧 Run It
+Search `iphon pro max 15` → returns `iPhone Pro Max 15` (with fuzzy matching).
 
 1. Start Elasticsearch:
    ```bash
@@ -20,11 +17,15 @@ A simple search demo using Node.js, TypeScript, and Elasticsearch.
 
 🌐 API 
     - GET /api/search?q=... – Search products
+
     - GET /health – Health check
      
 
 📝 Notes 
     - Uses fuzzy search (handles typos)
+
     - Sample data auto-loaded
+
     - Runs in Docker
+
      
