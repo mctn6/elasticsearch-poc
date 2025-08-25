@@ -23,12 +23,14 @@ Search `iphon pro max 15` → returns `iPhone Pro Max 15` (with fuzzy matching).
 5. Try to search: curl "http://localhost:3000/api/search?q=iphon+pro+max+15"
 
 🌐 API 
+
     - GET /api/search?q=... – Search products
 
     - GET /health – Health check
      
 
 📝 Notes 
+
     - Uses fuzzy search (handles typos)
 
     - Sample data auto-loaded
